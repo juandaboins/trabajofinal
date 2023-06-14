@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgba(189, 189, 216, 0.616);
+    padding: 0 48px;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 48px;
+}
+
+.logo span {
+    color: rgb(97, 97, 221);
+}
+
+.contactanos {
+    box-shadow: 0 0 20px 0 rgba(25, 25, 56, 0.664);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.contactanos-form {
+    background: rgb(212, 212, 243);
+}
+
+.contactanos > * {
+    padding: 16px;
+}
+
+.contactanos-form form{
+    margin: 0;
+    padding: 16px;
+}
+
+.contactanos-form form input {
+    width: 100%;
+    padding: .8em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid blanchedalmond;
+    outline: 0;
+    color: #fff;
+}
+
+.contactanos-form form button {
+    width: 100%;
+    padding: .8em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid blanchedalmond;
+    outline: 0;
+    color: #fff;
+}
+
+.contactanos-form textarea {
+    width: 100%;
+    padding: .8em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid blanchedalmond;
+    outline: 0;
+    color: #fff;
+}
+
+.contactanos-form form button {
+    background: green;
+    border: 0;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.contacto-info {
+    background: rgb(4, 4, 39);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.contacto-info h3 {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-size: 2em;
+}
+
+.contacto-info ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contacto-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
